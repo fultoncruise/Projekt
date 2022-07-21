@@ -79,18 +79,18 @@
     </li>
 
     <li class="search-container">
-      <form action="/action_page.php">
+      <form>
         <input class="search-input" type="text" placeholder="Search" name="search">
         <button class="icon" type="submit">🔎</button>
       </form>
     </li>
 
     <li class="login item" >
-      <a href="#">Login</a>
+      <a href="http://127.0.0.1:5502/login.html">Login</a>
     </li>
 
     <li class="signup item">
-      <a href="#">SignUp</a>
+      <a href="http://127.0.0.1:5502/signup.html">SignUp</a>
     </li>
   </ul> 
   <div class="heroImage" alt="heroImage">
@@ -98,15 +98,31 @@
 <!--FLIGHT-SEARCH-->
 
 
-  <div class="autocomplete">
+  <!--<div class="autocomplete">
       <input class="items" id="myInput" type="text" name="mycountry" placeholder="country">
       <input class="items" id="myInput2" type="text" name="mycountry" placeholder="country">
       <button class="icon" type="submit">🔎</button>
   </div>
   <div>
     <h4 class="para">Steps For Choosing Your Next Travel Destination Featured</h4>
-  </div>
+  </div>-->
 
+
+  <h2 class="booking" >Book by Location
+         Featured
+  </h2>
+
+  <p class="booking"  >Start typing:</p>
+  
+  <!--Make sure the form has the autocomplete function switched off:-->
+  <form>
+    <div class="autocomplete" style="width:300px;">
+      <input class="search-input" id="myInput" type="text" name="myCountry" placeholder="From">
+      <input class="search-input" id="myInput2" type="text" name="myCountry" placeholder="TO">
+      <button class="icon" type="submit">🔎</button>
+    </div>
+  
+  </form>
 
 
 
@@ -184,7 +200,7 @@
                     <li><a href="#">Flying</a></li>
                     <li><a href="#">Returns</a></li>
                     <li><a href="#">Booking status</a></li>
-                    <li><a href="#">Payment Option</a></li>
+                    <li><a href="http://127.0.0.1:5502/payment_option.html">Payment Option</a></li>
                 </ul>
             </div>
             <div class="footer-col">
@@ -193,7 +209,7 @@
                     <li><a href="#">Hotel</a></li>
                     <li><a href="#">Park</a></li>
                     <li><a href="#">Lodging</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="http://127.0.0.1:5502/contact.html">Contact</a></li>
                   
                 </ul>
             </div>
